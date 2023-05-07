@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Joke API Task</title>
+    <script src="src/script.js"></script>
+</head>
+<body class="bg-gray-950">
+    <nav class="bg-gradient-to-r from-cyan-950 to-teal-800 shadow-lg">
+        <div class="mx-auto px-4">
+          <div class="flex justify-between">
+
+            <div class="flex space-x-7">
+                <a href="#" class="flex items-center py-4 px-2">
+                    <img src="https://i.imgur.com/aXPB4dc.png" class="h-8 w-8 mr-2">
+                    <span class="font-semibold text-gray-100 text-lg">Joke Generator</span>
+                </a>
+            </div>
+
+            <div class="flex items-center space-x-1">
+                <a href="" class="py-4 px-2 text-gray-100 font-semibold hover:text-cyan-300 transition duration-300">
+                    Home
+                </a>
+                <a href="" class="py-4 px-2 text-gray-100 font-semibold hover:text-cyan-300 transition duration-300">
+                    Services
+                </a>
+                <a href="" class="py-4 px-2 text-gray-100 font-semibold hover:text-cyan-300 transition duration-300">
+                    About
+                </a>
+                <a href="" class="py-4 px-2 text-gray-100 font-semibold hover:text-cyan-300 transition duration-300">
+                    Contact Us
+                </a>
+               </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container w-3/4 min-h-[300px] mx-auto mt-[10vh] text-gray-100 rounded-lg h-[60vh] px-4 py-4 items-center">
+        <div id="setup" class="mt-[10vh] mx-auto text-center text-4xl">---</div>
+        <div id="punchline" class="mx-auto text-center text-4xl">---</div>
+        
+        <div class="mx-auto mt-[10vh] flex w-2/5 text-lg justify-between pt-7">
+            <button onclick="getJoke()" class="border-4 border-teal-800 w-32 h-16 rounded-2xl hover:bg-gray-900 transition duration-300 mr-4">
+                New Joke
+            </button>
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+            <button class="border-4 border-teal-800 w-32 h-16 rounded-2xl hover:bg-gray-900 transition duration-300">
+                Bonus Joke
+            </button></a>
+        </div>
+    </div>
+</body>
+
+<footer class="bg-white rounded-lg shadow mt-[12vh] m-4">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-600 sm:text-center">
+            ©2023 No copyright. API by <a href="https://github.com/15Dkatz/official_joke_api" class="hover:underline">15Dkatz</a>.
+        </span>
+        <div class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-600 sm:mt-0">
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">
+                About
+            </a>
+            <a href="#" class="mr-4 hover:underline md:mr-6">
+                Privacy Policy
+            </a>
+            <a href="#" class="mr-4 hover:underline md:mr-6">
+                Licensing
+            </a>
+            <a href="#" class="hover:underline">
+                Contact Us
+            </a>
+        </div>
+    </div>
+</footer>
+
+</html>
